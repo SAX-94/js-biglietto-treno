@@ -20,7 +20,7 @@ if (age < 18) {
 
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
-// VALORI DA TRASFERIRE SU HTML
+// VALORI DA TRASFERIRE IN HTML
 document.getElementById("age").innerHTML = age;
 document.getElementById("km").innerHTML = km;
 document.getElementById("price").innerHTML = price;
