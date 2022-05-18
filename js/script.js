@@ -2,6 +2,7 @@
 const pricePerkm = 0.21;
 const kidsDiscount = 0.8;
 const elderDiscount = 0.6;
+const noDiscount = 1;
 let discount;
 
 let age = parseInt(prompt("Quanti anni hai?"));
@@ -14,7 +15,7 @@ if (age < 18) {
 } else if (age > 65) {
     discount = elderDiscount;
 } else {
-    discount = 1;
+    discount = noDiscount;
 }
 
 let finalPrice = parseFloat(price * discount).toFixed(2);
