@@ -18,6 +18,10 @@ if (age < 18) {
     discount = noDiscount;
 }
 
+if (isNaN(age) || age < 0) {
+    alert("Devi inserire un valore di età valido")
+}
+
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
 // VALORI DA TRASFERIRE IN HTML
