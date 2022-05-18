@@ -22,6 +22,10 @@ if (isNaN(age) || age < 0) {
     alert("Devi inserire un valore di età valido")
 }
 
+if (isNaN(km) || km < 0) {
+    alert("Devi inserire una distanza valida")
+}
+
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
 // VALORI DA TRASFERIRE IN HTML
