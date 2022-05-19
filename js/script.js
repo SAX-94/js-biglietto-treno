@@ -1,4 +1,5 @@
-// VARIABILI
+// VARIABLES
+
 const pricePerkm = 0.21;
 const kidsDiscount = 0.8;
 const elderDiscount = 0.6;
@@ -9,6 +10,7 @@ let age = parseInt(prompt("Quanti anni hai?"));
 let km = parseInt(prompt("Quanti km devi percorrere?"));
 let price = parseFloat(pricePerkm * km);
 
+// CONDITIONS FOR APPLYING THE DISCOUNT
 
 if (age < 18) {
     discount = kidsDiscount;
@@ -18,6 +20,8 @@ if (age < 18) {
     discount = noDiscount;
 }
 
+// ALERT IF THE USER ENTERS INVALID VALUS FOR age OR km
+
 if (isNaN(age) || age < 0) {
     alert("Devi inserire un valore di età valido")
 }
@@ -25,6 +29,8 @@ if (isNaN(age) || age < 0) {
 if (isNaN(km) || km < 0) {
     alert("Devi inserire una distanza valida")
 }
+
+
 
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
