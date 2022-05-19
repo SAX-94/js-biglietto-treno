@@ -1,3 +1,4 @@
+// @ts-nocheck
 // VARIABLES
 
 const pricePerkm = 0.21;
