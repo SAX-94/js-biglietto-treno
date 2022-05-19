@@ -35,6 +35,10 @@ if (isNaN(km) || km < 0) {
 
 // ALERT IF THE USER ENTERS A VALUE FOR km THAT IL LESS THAN 5
 
+if (prompt("Quanti km devi percorrere?") = 0) {
+    alert("Devi inserire una distanza")
+}
+
 if (km < 5) {
     alert("Non puoi percorrere meno di 5 km")
 }
