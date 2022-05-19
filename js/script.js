@@ -20,6 +20,7 @@ if (age < 18) {
     discount = noDiscount;
 }
 
+// finalPrice VALUE
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
 // ALERT IF THE USER ENTERS INVALID VALUES FOR age OR km
