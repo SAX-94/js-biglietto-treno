@@ -34,7 +34,8 @@ if (isNaN(km) || km < 0) {
 
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
-// VALORI DA TRASFERIRE IN HTML
+// VALUES THAT MUST BE TRANSFERRED TO HTML
+
 document.getElementById("age").innerHTML = age;
 document.getElementById("km").innerHTML = km;
 document.getElementById("price").innerHTML = price;
