@@ -20,7 +20,7 @@ if (age < 18) {
     discount = noDiscount;
 }
 
-// ALERT IF THE USER ENTERS INVALID VALUS FOR age OR km
+// ALERT IF THE USER ENTERS INVALID VALUES FOR age OR km
 
 if (isNaN(age) || age < 0) {
     alert("Devi inserire un valore di età valido")
@@ -30,7 +30,17 @@ if (isNaN(km) || km < 0) {
     alert("Devi inserire una distanza valida")
 }
 
+// ALERT IF THE USER ENTERS A VALUE FOR km THAT IL LESS THAN 5
 
+if (km < 5) {
+    alert("Non puoi percorrere meno di 5 km")
+}
+
+// ALERT IF THE USER ENTERS A VALUE FOR km THAT IS BIGGER THAN 900
+
+if (km > 900) {
+    alert("Puoi percorrere al massimo 900 km")
+}
 
 let finalPrice = parseFloat(price * discount).toFixed(2);
 
