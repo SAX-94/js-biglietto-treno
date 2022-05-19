@@ -1,5 +1,5 @@
 Ciao ragazzi,
-Esercizio di oggi: **calcolo del prezzo del biglietto del treno**
+esercizio di oggi: **calcolo del prezzo del biglietto del treno**
 
 ### Cartella/repo: js-biglietto-treno
 
