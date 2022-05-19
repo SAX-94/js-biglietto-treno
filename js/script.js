@@ -20,6 +20,8 @@ if (age < 18) {
     discount = noDiscount;
 }
 
+let finalPrice = parseFloat(price * discount).toFixed(2);
+
 // ALERT IF THE USER ENTERS INVALID VALUES FOR age OR km
 
 if (isNaN(age) || age < 0) {
@@ -41,8 +43,6 @@ if (km < 5) {
 if (km > 900) {
     alert("Puoi percorrere al massimo 900 km")
 }
-
-let finalPrice = parseFloat(price * discount).toFixed(2);
 
 // VALUES THAT MUST BE TRANSFERRED TO HTML
 
